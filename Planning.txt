@@ -44,3 +44,4 @@ slideshow on home page displaying chalet options and basic details
 Logo in header takes user back to home page.
 
 pungacove.co.nz
+
