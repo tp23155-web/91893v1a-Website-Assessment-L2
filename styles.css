@@ -9,15 +9,15 @@ body {
 
 /* Header Styling */
 header {
-    background-color: rgb(80, 207, 51);
+    background-color: rgb(241, 241, 209);
     color: rgb(0, 0, 0);
     padding: 20px;
+    
 }
 
 /* Navigation Menu */
 nav {
     margin-top: 10px;
-    size: 400px;
 }
 
 nav a {
@@ -25,7 +25,10 @@ nav a {
     text-decoration: none;
     font-size: 18px;
     margin: 0 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+
 
 nav a:hover {
     text-decoration: underline;
@@ -52,3 +55,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+
