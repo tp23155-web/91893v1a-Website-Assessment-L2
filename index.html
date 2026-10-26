@@ -12,25 +12,95 @@
         <img src="images/maunga_club_logo.png" alt="Website logo" width="600px">
         <nav>
             <a href="index.html">Home</a>
-            <a href="kakapo.html">Chalet 1</a>
-            <a href="pukeko.html">Chalet 2</a>
-            <a href="kereru.html">Chalet 3</a>
+            <a href="kakapo.html">Kakapo</a>
+            <a href="pukeko.html">Pukeko</a>
+            <a href="kereru.html">Kereru</a>
         </nav>
     </header>
 
-    <!-- Image Section -->
-    <div class="content">
-        <img src="images/mountain_view_1.jpg" alt="Business Image">
-        <img src="images/mountain_view_dark.jpg" alt="Fantasy treehouse">
+
+    <div class="header2">
     </div>
-    <p>
-        Sam is a professional treehouse builder and has a business called TreeHousePro. He builds treehouses for children, adults, and even whole families!
-    </p>
+            <div class="slideshow-container">
+
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="images/maunga_club_cabin.jpg" alt="" style="width:100%; padding-top: 40px; margin-left: 200px;">
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="images/mountain_view_1.jpg" alt="" style="width:100%; padding-top: 40px; margin-left: 200px;">
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="kakapo/cabin_view.jpg" alt="" style="width:100%; padding-top: 40px; margin-left: 200px;">
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="kereru/adult_bedroom.jpg" alt="" style="width: 100%; padding-top: 40px; margin-left: 200px;">
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="kereru/kitchen.jpg" alt="" style="width:100%; padding-top: 40px; margin-left: 200px;">
+              </div>
+              
+              </div>
+              <br>
+              
+              <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
+              <script>
+                  let slideIndex = 0;
+                  showSlides();
+                  
+                  function showSlides() {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}    
+                    for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 3000  );
+                  }
+                  </script>
 
     <!-- Footer Section -->
     <footer>
-        <p>Contact Number:0295123696</p>
-        <p>Email:admin@treehousepro.biz</p>
+        <h2> Sign Up Here:</h2>
+        <br>
+    <form action="#" method="post">
+        <label for="first name">First Name:</label>
+        <input type="text" id="first name" name="first name" required><br></br>
+
+        <label for="last name">Last Name:</label>
+        <input type="text" id="last name" name="last name" required><br></br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br></br>
+
+        <input type="submit" value="Submit"
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </footer>
 </body>
 </html>
