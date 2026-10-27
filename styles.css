@@ -11,7 +11,10 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-
+p {
+    text-align: left;
+    padding-left: 400px;
+}
 header {
     background-color: rgb(241, 241, 209);
     color: rgb(0, 0, 0);
@@ -150,3 +153,93 @@ footer {
         font-size: 11px; 
     }
 }
+
+/* Chalet Section Grid */
+.chalet-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px 0;
+    border-top: 1px dashed #c29b62;
+    border-bottom: 1px dashed #c29b62;
+    text-align: left !important;
+}
+
+/* Left Column */
+.chalet-left {
+    flex: 1;
+    padding-right: 40px;
+    text-align: left !important;
+}
+
+.chalet-left h2 {
+    font-size: 26px;
+    margin: 0 0 10px 0;
+    font-weight: normal;
+    text-align: left !important;
+}
+
+.chalet-note {
+    font-size: 14px;
+    color: #555;
+    margin: 0 0 20px 0;
+    text-align: left !important;
+}
+
+.chalet-lists {
+    display: flex;
+    gap: 40px;
+    text-align: left !important;
+}
+
+.chalet-lists ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: disc;
+    text-align: left !important;
+}
+
+.chalet-lists li {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* Right Column */
+.chalet-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 180px;
+}
+
+.price-box {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+
+.price-box span {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+}
+
+.chalet-btn {
+    display: inline-block;
+    background-color: #c29b62;
+    color: #fff;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.chalet-btn:hover {
+    background-color: #a8814a;
+}
+
