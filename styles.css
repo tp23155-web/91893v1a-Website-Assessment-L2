@@ -308,3 +308,7 @@ footer {
 .chalet-btn:hover {
     background-color: #a8814a;
 }
+
+html {
+  scroll-behavior: smooth;
+}

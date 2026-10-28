@@ -48,5 +48,4 @@ pungacove.co.nz
 To Do:
 
 - Comments
-- Booking page
-- Relevant implications
+- Address and Gather Feedback

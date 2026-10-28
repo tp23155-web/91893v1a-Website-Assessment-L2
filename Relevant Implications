@@ -1,1 +1,26 @@
-Relevant Implications
+Relevant Implications:
+
+Usability:
+
+Usability is ensuring users can navigate the site intuitively and perform actions without frustation. In my design I have grouped the chalet information into sections with clear visual hierarchy, as well as implementing anchor navigattion so that when the user presses the book button it automatically directs them towards the footer sign up page.
+
+Aesthetics:
+
+Aesthetics is creating a cohesive, readable, and visually appealing design. In my design I have selected a clean, handcrafted aesthetic featuring a arm alpine colour palette that reflects natural wood tones, as well as spliting the seperate chalet listing into three columns for a more aesthetic design.
+
+Functionality:
+
+Functionality is ensuring that the html, css, and javascript execute smoothly and reliably across all pages. In my design I have structured HTML content inside semantic containers to prevent broad CSS properties from breaking my layout across multiple pages, I have also fixed event handling logic on my anchor links to allow seamless page scrolling alongside my alert notifications.
+
+Accessiblilty & Responsiveness:
+
+Accessibility & repsonsiveness is making sure that the site is usable aross various device screen sizes and accessable to diverse users. In my design I have added respinsive CSS media queres that automatically edit my layout so that my design is optimally viewed on maobile devices, I have also applied alt text to each image so that screen readers can describe the image content, and so users still undersdtand the content if an image fails to load.
+
+Intellectual Property:
+
+Respecting intellectual property involves ensuring that all assests (images, text, logos) are legally sourced, credited, or produced specifically for this project. In my design all mountain and chalet imagery used in my design has been sourced directly from the materials provided. Also the logo was styled specifically for this rpoject to avoid trademark infringement with other commercial ski clubs.
+
+Cultural:
+
+Meeting the cultural expectations means ensuring the site feels trustworthy, relevant to its audience, and culturally appropriate for a New Zealand accommodation provider. In my design I have the Chalets named after each of the native NZ birds (Kakapo, Pukeko, Kereru), respecting these names menat formatting them clearly and accuratly throughout the site.
+

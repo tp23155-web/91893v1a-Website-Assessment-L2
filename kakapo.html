@@ -52,12 +52,12 @@
 
     <div class="chalet-right">
         <div class="price-box">From <span>$390</span> / night</div>
-        <a href="#" class="chalet-btn">Book Now</a>
+        <a href="#my_footer" class="chalet-btn" onclick="booksubmission(event)">Book Now</a>
     </div>
 </div>
 
     <!-- Footer Section -->
-    <footer style="text-align: center;">
+    <footer id="my_footer" style="text-align: center;">
     <br>
     <h2>Sign Up Here:</h2>
     <br>
@@ -87,6 +87,13 @@
         alert("Form Submitted!\n\nPlease email a copy of your photo ID to maungaclub@maungaclub.maungaclub to complete your registration.");
         document.getElementById("signUpForm").reset(); // Clears all input fields
     }
+</script>
+<script>
+    function booksubmission(event) {
+    alert("Please Sign Up Below To Book");
+    
+}
+    
 </script>
 
 </body>
