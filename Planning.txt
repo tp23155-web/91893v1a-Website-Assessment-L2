@@ -45,3 +45,8 @@ Logo in header takes user back to home page.
 
 pungacove.co.nz
 
+To Do:
+
+- Comments
+- Booking page
+- Relevant implications
