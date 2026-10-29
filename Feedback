@@ -1,11 +1,11 @@
 Friends and Family:
 
-- Enlarge and Make Footer text bold
+- Make it more obvious that you have to go and sign up, apply a pop up that tells user to submit at bottom - Completed 29/10/26 under commits (adding booksubmission(event))
 
-- Make it more obvious that you have to go and sign up, button directs to footer
+- Aesthetics is good, improve functionality through directing to footer on button press. - Completed 29/10/26 under commits (my_footer id)
 
-- Make images cover full length of screen for aesthetics
+- Enlarge and Make Footer text bold - Completed 28/10/26 under commits (h2 editing)
 
-- Make sure that information is correct throughout website (change prices on chalet pages)
+- Make sure that information is correct throughout website (change prices on chalet pages) - Completed 28/10/26 under commits (edited info)
 
-- Aesthetics is good, improve functionality through directing to footer on button press.
+- Make images cover full length of screen for aesthetics - Completed 26/10/26 under commits (kakapo and other chalet pages: image container)
